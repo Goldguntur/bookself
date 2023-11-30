@@ -52,6 +52,7 @@ input[type="date"] {
   cursor: pointer;
   width: 100%;
   margin-bottom: 20px;
+  color: white;
 }
 
 .check {
