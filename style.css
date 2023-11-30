@@ -44,6 +44,7 @@ form {
   padding: 20px;
   width: 80%;
   text-align: center;
+  color: white;
 }
 
 input[type="text"],
@@ -52,7 +53,6 @@ input[type="date"] {
   cursor: pointer;
   width: 100%;
   margin-bottom: 20px;
-  color: white;
 }
 
 .check {
