@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>bookself apps <span id="judul">by guntur</span></h1>
+    </header>
+    <main>
+      <section id="container">
+        <h2>masukan buku anda:</h2>
+        <form action="" class="form" id="format" autocomplete="off">
+          <legend>masukan koleksi buku anda</legend>
+          <div class="input-text">
+            <br /><br />
+            <label for="nama">nama judul</label>
+            <input type="text" name="namaJudul" id="nama" required />
+          </div>
+          <div class="input-text">
+            <label for="penulis">nama penulis</label>
+            <input type="text" name="namaPenulis" id="penulis" required />
+          </div>
+          <div class="input-number">
+            <label for="rilis">rilis</label>
+            <input type="number" name="namaJudul" id="rilis" />
+          </div>
+          <div class="date" hidden>
+            <label for="waktu">waktu selesai dibaca</label>
+            <input type="date" name="waktu" id="waktu" />
+          </div>
+          <div class="check">
+            <p>sudah dibaca</p>
+            <input type="checkbox" name="check" id="tanda-sudah-dibaca" />
+          </div>
+          <div class="input-button">
+            <button id="bookSubmit" type="submit">Masukkan Buku ke rak <span>Belum selesai dibaca</span></button>
+          </div>
+        </form>
+      </section>
+      <div class="ungu">
+        <h4>rak buku:</h4>
+      </div>
+      <h2>belum selesai dibaca</h2>
+      <section class="rak-buku-belum-selesai">
+        <article class="uncompleted"></article>
+      </section>
+      <h2>sudah selesai dibaca</h2>
+      <section class="rak-buku-sudah-selesai">
+        <article class="completed"></article>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
